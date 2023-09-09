@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #FFF;
+    border-bottom: 2px solid #eee;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.container {
+    margin: 0 auto;
+    width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header_flex
+.logo_block {
+    display: flex;
+    align-items: center;
+}
+.first_logo {
+    padding: 8px;
+    border-radius: 8px;
+    background: #39DB4A;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+header nav ul li a {
+    color: #272727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.active_link {
+    color: #39DB4A;
+}
+.header_buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.cart {
+    position: relative;
+}
+.prod_amount {
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+    background: #39DB4A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: -9px;
+}
+.contact {
+    width: 179px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+    border-radius: 40px;
+    background: #39DB4A;
+}
+.contact span {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main.container {
+    margin-top: 125px;
+}
+.section_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_1>div {
+
+}
+
+.banner {
+    position: relative;
+}
+.main_photo {
+    position: absolute;
+}
+.main_photo > img {
+    position: ;
+}
