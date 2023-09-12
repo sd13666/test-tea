@@ -878,3 +878,26 @@ main.container {
 .main_photo > img {
     position: absolute;
 }
+
+.slider {
+    display: flex;
+}
+.menu_card {
+    width: 33.3%;
+}
+.menu_card_content {
+}
+.menu_cart_wishlist {
+}
+.menumg_card_content_i {
+}
+.menu_card_content_title {
+}
+.menu_card_content_desc {
+}
+.menu_card_content_bottom_line {
+}
+.menu_card_content_meal_price {
+}
+.menu_card_content_meal_rating {
+}
