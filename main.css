@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
 }
+
 header {
     height: 120px;
     width: 100%;
@@ -21,29 +24,35 @@ header {
     z-index: 100;
 
 }
+
 .container {
     margin: 0 auto;
     width: 1420px;
 }
+
 .header_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo_block {
     display: flex;
     align-items: center;
 }
+
 .first_logo {
     padding: 8px;
     border-radius: 8px;
     background: #39DB4A;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
     gap: 55px;
 }
+
 header nav ul li a {
     color: #272727;
     font-size: 20px;
@@ -53,17 +62,21 @@ header nav ul li a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+
 .active_link {
     color: #39DB4A;
 }
+
 .header_buttons {
     display: flex;
     gap: 40px;
     align-items: center;
 }
+
 .cart {
     position: relative;
 }
+
 .prod_amount {
     position: absolute;
     color: #FFF;
@@ -82,6 +95,8 @@ header nav ul li a {
     top: -5px;
     right: -9px;
 }
+
+
 .contact {
     width: 179px;
     height: 60px;
@@ -92,6 +107,7 @@ header nav ul li a {
     border-radius: 40px;
     background: #39DB4A;
 }
+
 .contact span {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
@@ -100,19 +116,24 @@ header nav ul li a {
     font-weight: 500;
     line-height: normal;
 }
+
 main.container {
     margin-top: 125px;
 }
+
 .section_1 {
     display: flex;
     justify-content: space-between;
 }
+
 .section_1_left_block {
     margin-top: 160px;
 }
-.section_1 > div {
+
+.section_1>div {
     width: 700px;
 }
+
 h1 {
     color: #000;
     font-size: 62px;
@@ -121,9 +142,11 @@ h1 {
     line-height: 91px;
     width: 596px;
 }
+
 h1 span {
     color: #39DB4A;
 }
+
 .h1_subtitle {
     color: #4A4A4A;
     font-size: 26px;
@@ -134,26 +157,31 @@ h1 span {
     margin-top: 60px;
     margin-bottom: 70px;
 }
+
 .btns_bottom_line {
     display: flex;
     align-items: center;
     gap: 32px;
 }
+
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .btn_font {
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
+
 .btn_text {
     color: #4D4D4D;
     text-decoration: none;
 }
+
 .green_btn {
     border-radius: 40px;
     background: #39DB4A;
@@ -165,28 +193,33 @@ h1 span {
     padding-right: 47px;
     text-decoration: none;
 }
+
 .btn_play_video {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     box-shadow: 6px 27px 34px rgba(0, 0, 0, 0.10);
 }
+
 .banner {
     position: relative;
     height: 900px;
 }
+
 .main_photo {
     position: absolute;
     width: 100%;
     height: 100%;
 
 }
+
 .main_photo>img {
     position: absolute;
     width: 100%;
     z-index: 2;
 
 }
+
 .main_photo_bg {
     position: absolute;
     border-radius: 500px;
@@ -197,6 +230,7 @@ h1 span {
     top: 114px;
     left: 46px;
 }
+
 .banner_mark {
     width: 248px;
     height: 67px;
@@ -205,11 +239,13 @@ h1 span {
     left: -79px;
     z-index: 3;
 }
+
 .banner_mark img {
     position: absolute;
     top: -30px;
     left: -27px;
 }
+
 .banner_mark span {
     position: absolute;
     color: #FF6868;
@@ -222,6 +258,7 @@ h1 span {
     top: 13px;
     left: 34px;
 }
+
 .banner_meals {
     position: absolute;
     width: calc(100% + 50px);
@@ -232,6 +269,7 @@ h1 span {
     left: -50px;
 
 }
+
 .banner_card_meal {
     border-radius: 25px;
     background: #FFF;
@@ -242,12 +280,15 @@ h1 span {
     padding: 20px 17px;
 
 }
+
 .banner_card_meal_left {
     margin-right: 28px;
 }
+
 .banner_card_meal_left>img {
     border-radius: 15px;
 }
+
 .banner_card_meal_name {
     color: #2C2C2C;
     font-size: 22px;
@@ -255,13 +296,16 @@ h1 span {
     font-weight: 600;
     line-height: normal;
 }
+
 .stars {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .stars img {
     margin-right: 4px;
 }
+
 .banner_card_meal_price {
     color: #515151;
     font-size: 24px;
@@ -269,10 +313,12 @@ h1 span {
     font-weight: 600;
     line-height: normal;
 }
+
 .banner_card_meal_price::first-letter {
     color: #FF7979;
     font-size: 18px;
 }
+
 .section_title {
     color: #FF6868;
     font-size: 20px;
@@ -281,9 +327,10 @@ h1 span {
     line-height: normal;
     letter-spacing: 3.5px;
     text-transform: uppercase;
-
     text-align: center;
+    margin-top: 150px;
 }
+
 .section_subtitle {
     color: #000;
     text-align: center;
@@ -294,10 +341,12 @@ h1 span {
     margin-top: 30px;
     margin-bottom: 78px;
 }
+
 .category_container {
     display: flex;
     justify-content: space-between;
 }
+
 .category_card {
     border-radius: 40px;
     background: #FFF;
@@ -308,9 +357,11 @@ h1 span {
     justify-content: center;
     align-items: center;
 }
+
 .category_card_content {
     text-align: center;
 }
+
 .category_card_content_img {
     width: 153px;
     height: 153px;
@@ -320,6 +371,7 @@ h1 span {
     justify-content: center;
     align-items: center;
 }
+
 .category_title {
     color: #1E1E1E;
     font-family: Inter;
@@ -330,6 +382,7 @@ h1 span {
     margin-top: 13px;
     margin-bottom: 12px;
 }
+
 .category_prod_amount {
     color: #555;
     text-align: center;
@@ -339,102 +392,105 @@ h1 span {
     font-weight: 500;
     line-height: normal;
 }
-header {
-    height: 120px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    background-color: #FFF;
-    border-bottom: 2px solid #eee;
-    top: 0;
-    left: 0;
-    right: 0;
 
+.text_left {
+    text-align: left;
 }
-.logo_block {
-    display: flex;
-    align-items: center;
+
+.width_580 {
+    width: 580px;
 }
-.first_logo {
-    padding: 8px;
-    border-radius: 8px;
-    background: #39DB4A;
-}
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 55px;
-}
-header nav ul li a {
-    color: #272727;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-}
-.active_link {
-    color: #39DB4A;
-}
-.header_buttons {
+
+.slider {
     display: flex;
     gap: 40px;
-    align-items: center;
 }
-.cart {
+
+.menu_card {
+    width: 33.3333333%;
+}
+
+.menu_card_content {
     position: relative;
-}
-.prod_amount {
-    position: absolute;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 20px;
-    height: 20px;
-    background: #39DB4A;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -5px;
-    right: -9px;
-}
-.contact {
-    width: 179px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-    align-items: center;
     border-radius: 40px;
-    background: #39DB4A;
+    background: #FFF;
+    box-shadow: 2px 9px 42px 0px rgba(0, 0, 0, 0.08);
+    padding: 38px 45px;
 }
-.contact span {
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+
+.manu_cart_whishlist {
+    position: absolute;
+    border-radius: 0px 37.5px 0px 42.5px;
+    background: #39DB4A;
+    width: 87px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+}
+
+.menu_card_content_img {
+    text-align: center;
+}
+.menu_card_content_img img{
+    width: 276px;
+    height: auto;
+}
+
+.menu_card_content_title {
+    color: #000;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+
+.menu_card_content_desc {
+    color: #555;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
     line-height: normal;
 }
-main.container {
-    margin-top: 125px;
-}
-.section_1 {
+
+.menu_card_content_bottom_line {
     display: flex;
     justify-content: space-between;
+    margin-top: 28px;
+    align-items: center;
 }
-.banner {
-    position: relative;
+
+.menu_card_content_meal_price {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.main_photo {
-    position: absolute;
+
+.menu_card_content_meal_price::first-letter {
+    color: #FF6868;
+    font-size: 24px;
 }
-.main_photo > img {
-    position: absolute;
+
+.menu_card_content_meal_rating {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu_card_content_meal_rating span {
+    color: #454545;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.menu_card_content_meal_rating img {
+    width: 24px;
+    height: 24px;
 }
